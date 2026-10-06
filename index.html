@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<title>V4 ULTRA - 20 GAYA TULISAN + STIKER WA - SCAN KING</title>
+<link rel="manifest" href="manifest.json">
+<meta name="theme-color" content="#ffd700">
+<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@700;900&family=Poppins:wght@400;600;700;800&display=swap" rel="stylesheet">
+<style>
+*{margin:0;padding:0;box-sizing:border-box;-webkit-tap-highlight-color:transparent}
+body{font-family:'Poppins',sans-serif;background:#000;color:#ffd700;min-height:100vh;overflow-x:hidden;position:relative}
+body::before{content:'';position:fixed;inset:0;background:radial-gradient(ellipse at 15% 15%, rgba(255,215,0,0.20), transparent 55%),radial-gradient(ellipse at 85% 85%, rgba(255,215,0,0.14), transparent 55%),linear-gradient(45deg,#000 25%,#0a0a0a 25%,#0a0a0a 50%,#000 50%,#000 75%,#0a0a0a 75%);background-size:100% 100%,100% 100%,36px 36px;animation:bgMove 7s linear infinite, goldPulse 2.8s ease-in-out infinite alternate;z-index:-2}
+@keyframes bgMove{0%{background-position:0 0}100%{background-position:36px 36px}}
+@keyframes goldPulse{0%{opacity:0.85}100%{opacity:1}}
+.shimmer{position:fixed;inset:0;background:linear-gradient(115deg,transparent 0%,rgba(255,215,0,0.09) 50%,transparent 100%);background-size:200% 100%;animation:shimmerMove 3.5s infinite;z-index:-1;pointer-events:none}
+@keyframes shimmerMove{0%{background-position:-200% 0}100%{background-position:200% 0}}
+.container{max-width:480px;margin:0 auto;padding:12px 10px 96px}
+.header{text-align:center;padding:18px 12px;border:2px solid #ffd700;border-radius:20px;background:linear-gradient(180deg,rgba(22,22,22,0.96),rgba(0,0,0,0.98));box-shadow:0 0 28px rgba(255,215,0,0.38), inset 0 0 14px rgba(255,215,0,0.18);animation:headerBlink 2.4s ease-in-out infinite alternate;position:relative;overflow:hidden}
+@keyframes headerBlink{0%{box-shadow:0 0 14px rgba(255,215,0,0.22), inset 0 0 8px rgba(255,215,0,0.10);border-color:#b8960c}100%{box-shadow:0 0 40px rgba(255,215,0,0.62), inset 0 0 20px rgba(255,215,0,0.28);border-color:#ffd700}}
+.header h1{font-family:'Cinzel',serif;font-size:18px;letter-spacing:2px;color:#ffd700;text-shadow:0 0 12px rgba(255,215,0,0.7);line-height:1.2}
+.header p{font-size:10px;color:#c9b037;margin-top:5px;letter-spacing:1px}
+.scorp{font-size:34px;animation:glow 2s infinite alternate;display:inline-block}
+@keyframes glow{0%{filter:drop-shadow(0 0 5px #ffd700)}100%{filter:drop-shadow(0 0 20px #ffd700)}}
+.tabs{display:flex;gap:8px;margin:14px 0}
+.tab{flex:1;padding:10px;border-radius:12px;border:1.5px solid rgba(255,215,0,0.4);background:#111;color:#8a7a2e;font-weight:800;font-size:11px;text-align:center;cursor:pointer}
+.tab.active{background:linear-gradient(90deg,#ffd700,#ffb300);color:#000;border-color:#ffd700;box-shadow:0 0 12px rgba(255,215,0,0.5)}
+.input-wrap{padding:14px;border:1.5px solid #ffd700;border-radius:16px;background:rgba(15,15,15,0.94);margin-bottom:12px}
+.input-wrap label{font-size:10px;font-weight:900;letter-spacing:1px;display:flex;justify-content:space-between;color:#ffd700}
+.input-wrap input{width:100%;margin-top:8px;padding:13px 14px;border-radius:12px;border:1.5px solid #5a4a0a;background:#000;color:#ffd700;font-size:16px;font-weight:700;outline:none}
+.input-wrap input:focus{border-color:#ffd700;box-shadow:0 0 12px rgba(255,215,0,0.5)}
+.grid{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-bottom:10px}
+.chip{padding:8px;border-radius:20px;border:1px solid #5a4a0a;background:#0f0f0f;color:#ffd700;font-size:10px;font-weight:700;text-align:center;cursor:pointer}
+.chip.active{background:#ffd700;color:#000}
+.card{margin:10px 0;padding:13px;border-radius:16px;background:linear-gradient(145deg,#151515,#000);border:1.5px solid rgba(255,215,0,0.45);position:relative;overflow:hidden;animation:cardBlink 3s ease-in-out infinite alternate}
+@keyframes cardBlink{0%{border-color:rgba(255,215,0,0.35)}100%{border-color:rgba(255,215,0,0.95)}}
+.card::after{content:'';position:absolute;top:0;left:-100%;width:70%;height:100%;background:linear-gradient(90deg,transparent,rgba(255,215,0,0.13),transparent);animation:shine 3.2s infinite}
+@keyframes shine{0%{left:-100%}50%{left:150%}100%{left:150%}}
+.card-head{display:flex;justify-content:space-between;align-items:center;margin-bottom:8px;position:relative;z-index:1}
+.card h3{font-size:11px;color:#ffd700;letter-spacing:0.4px}
+.badge{font-size:8px;padding:4px 7px;border-radius:20px;background:linear-gradient(90deg,#ffd700,#b8960c);color:#000;font-weight:900}
+.result{background:#000;border:1px dashed #5a4a0a;border-radius:11px;padding:11px 10px;min-height:46px;font-size:14.5px;color:#fff;word-break:break-all;white-space:pre-wrap;position:relative;z-index:1;line-height:1.35}
+.btns{display:flex;gap:6px;margin-top:9px;position:relative;z-index:1}
+.btn{flex:1;padding:9px 6px;border-radius:10px;border:1px solid #ffd700;background:linear-gradient(90deg,#ffd700,#ffb300);color:#000;font-weight:900;font-size:10.5px;cursor:pointer}
+.btn:active{transform:scale(0.95)}
+.btn2{background:transparent;color:#ffd700}
+.btn3{background:linear-gradient(90deg,#25D366,#128C7E);color:#fff;border-color:#25D366}
+.install{margin:10px 0;padding:11px;border-radius:12px;background:linear-gradient(90deg,#ffd700,#ffcc00);color:#000;font-weight:900;text-align:center;cursor:pointer;display:none;animation:headerBlink 2s infinite alternate;font-size:12px}
+.modal{position:fixed;inset:0;background:rgba(0,0,0,0.88);backdrop-filter:blur(8px);display:none;align-items:center;justify-content:center;z-index:200;padding:14px}
+.modal.show{display:flex}
+.modal-box{width:100%;max-width:360px;background:linear-gradient(180deg,#1a1a1a,#000);border:2px solid #ffd700;border-radius:18px;padding:16px;box-shadow:0 0 30px rgba(255,215,0,0.4);text-align:center}
+.modal-box h2{font-size:14px;color:#ffd700;margin-bottom:10px}
+#stickerCanvas{width:100%;max-width:300px;border-radius:14px;border:1.5px solid #ffd700;margin:10px auto;display:block;background:#000}
+.toast{position:fixed;bottom:24px;left:50%;transform:translateX(-50%) translateY(130px);background:#ffd700;color:#000;padding:11px 20px;border-radius:22px;font-weight:900;font-size:12px;opacity:0;transition:0.35s;z-index:999;box-shadow:0 8px 24px rgba(0,0,0,0.7)}
+.toast.show{transform:translateX(-50%) translateY(0);opacity:1}
+.footer{text-align:center;margin-top:16px;font-size:9px;color:#8a7a2e;line-height:1.6;letter-spacing:0.5px}
+.nav{position:fixed;bottom:0;left:0;right:0;max-width:480px;margin:0 auto;background:rgba(0,0,0,0.95);backdrop-filter:blur(12px);border-top:1.5px solid rgba(255,215,0,0.4);display:flex;justify-content:space-around;padding:10px 0 12px;z-index:50}
+.nav div{font-size:10px;color:#8a7a2e;text-align:center;cursor:pointer;line-height:1.2}
+.nav div.active{color:#ffd700;text-shadow:0 0 8px #ffd700}
+</style>
+</head>
+<body>
+<div class="shimmer"></div>
+<div class="container">
+  <div class="header">
+    <div class="scorp">🦂</div>
+    <h1>20 GAYA TULISAN + STIKER WA</h1>
+    <p>V4 ULTRA - 99% ORANG BELUM TAHU</p>
+    <p style="color:#ffd700;font-size:9px;font-weight:800;margin-top:4px;">SCAN KING • GOLD BLACK SULTAN • PWA APK</p>
+  </div>
+  <div id="installBtn" class="install" onclick="installPWA()">📲 INSTALL JADI APK - KLIK DISINI</div>
+  <div class="tabs">
+    <div class="tab active" onclick="setTab('all')" id="tab-all">🔥 20 GAYA</div>
+    <div class="tab" onclick="setTab('game')" id="tab-game">🎮 GAME</div>
+    <div class="tab" onclick="setTab('bio')" id="tab-bio">💬 BIO WA</div>
+    <div class="tab" onclick="setTab('fav')" id="tab-fav">⭐ FAV</div>
+  </div>
+  <div class="input-wrap">
+    <label><span>⌨️ KETIK TEKS LU KING:</span><span class="count" id="charCount">18 huruf</span></label>
+    <input id="mainInput" type="text" value="Sultan" placeholder="Contoh: Sultan" oninput="generateAll()">
+    <div class="grid" style="margin-top:10px">
+      <div class="chip active" onclick="quickText('Sultan')">Sultan</div>
+      <div class="chip" onclick="quickText('Scan King')">Scan King</div>
+      <div class="chip" onclick="quickText('Gacor Kang')">Gacor Kang</div>
+      <div class="chip" onclick="quickText('King Depok')">King Depok</div>
+    </div>
+  </div>
+  <div id="cards"></div>
+  <div class="footer">V4 ULTRA • 20 GAYA + STIKER WA • PREMIUM<br>Fitur Stiker: jadi gambar PNG gold siap jadi stiker WA 🔥<br>BY SCAN KING V3</div>
+</div>
+<div class="nav">
+  <div class="active" onclick="setTab('all')">🏠<br>HOME</div>
+  <div onclick="document.getElementById('mainInput').focus()">✨<br>BUAT</div>
+  <div onclick="setTab('fav')">⭐<br>FAV</div>
+</div>
+<div id="stickerModal" class="modal" onclick="if(event.target==this)closeSticker()">
+  <div class="modal-box">
+    <h2>🎨 STIKER WA GOLD</h2>
+    <canvas id="stickerCanvas" width="512" height="512"></canvas>
+    <div style="display:flex;gap:8px;margin-top:12px">
+      <button class="btn" onclick="downloadSticker()">⬇️ DOWNLOAD PNG</button>
+      <button class="btn btn2" onclick="closeSticker()">✖ TUTUP</button>
+    </div>
+    <p style="font-size:9px;color:#8a7a2e;margin-top:10px">Buka WA > Stiker > Buat stiker > Pilih PNG ini</p>
+  </div>
+</div>
+<div id="toast" class="toast">✅ Disalin KING!</div>
+<script>
+const ups={a:'ɐ',b:'q',c:'ɔ',d:'p',e:'ǝ',f:'ɟ',g:'ɓ',h:'ɥ',i:'ᴉ',j:'ɾ',k:'ʞ',l:'ʅ',m:'ɯ',n:'u',o:'o',p:'d',q:'b',r:'ɹ',s:'s',t:'ʇ',u:'n',v:'ʌ',w:'ʍ',x:'x',y:'ʎ',z:'z',' ':' '};
+const small={a:'ᴀ',b:'ʙ',c:'ᴄ',d:'ᴅ',e:'ᴇ',f:'ꜰ',g:'ɢ',h:'ʜ',i:'ɪ',j:'ᴊ',k:'ᴋ',l:'ʟ',m:'ᴍ',n:'ɴ',o:'ᴏ',p:'ᴘ',q:'ǫ',r:'ʀ',s:'ꜱ',t:'ᴛ',u:'ᴜ',v:'ᴠ',w:'ᴡ',x:'x',y:'ʏ',z:'ᴢ'};
+const bubble={a:'ⓐ',b:'ⓑ',c:'ⓒ',d:'ⓓ',e:'ⓔ',f:'ⓕ',g:'ⓖ',h:'ⓗ',i:'ⓘ',j:'ⓙ',k:'ⓚ',l:'ⓛ',m:'ⓜ',n:'ⓝ',o:'ⓞ',p:'ⓟ',q:'ⓠ',r:'ⓡ',s:'ⓢ',t:'ⓣ',u:'ⓤ',v:'ⓥ',w:'ⓦ',x:'ⓧ',y:'ⓨ',z:'ⓩ',A:'Ⓐ',B:'Ⓑ',C:'Ⓒ',D:'Ⓓ',E:'Ⓔ',F:'Ⓕ',G:'Ⓖ',H:'Ⓗ',I:'Ⓘ',J:'Ⓙ',K:'Ⓚ',L:'Ⓛ',M:'Ⓜ',N:'Ⓝ',O:'Ⓞ',P:'Ⓟ',Q:'Ⓠ',R:'Ⓡ',S:'Ⓢ',T:'Ⓣ',U:'Ⓤ',V:'Ⓥ',W:'Ⓦ',X:'Ⓧ',Y:'Ⓨ',Z:'Ⓩ',' ':' '};
+const square={a:'🄰',b:'🄱',c:'🄲',d:'🄳',e:'🄴',f:'🄵',g:'🄶',h:'🄷',i:'🄸',j:'🄹',k:'🄺',l:'🄻',m:'🄼',n:'🄽',o:'🄾',p:'🄿',q:'🅀',r:'🅁',s:'🅂',t:'🅃',u:'🅄',v:'🅅',w:'🅆',x:'🅇',y:'🅈',z:'🅉',' ':' '};
+function mapText(t,map){return t.split('').map(c=>map[c.toLowerCase()]||map[c]||c).join('');}
+function toUps(t){return t.toLowerCase().split('').map(c=>ups[c]||c).reverse().join('');}
+function toSmall(t){return mapText(t,small);}
+function toZalgo(t){return t.split('').map(c=>c+'̷̴͓').join('');}
+function toInv(t){return t.split('').join('ㅤ');}
+function toScorpion(t){return '꧁༒☬ '+t+' ☬༒꧂';}
+function toCombo(t){return '*_~'+t+'~_*';}
+function toAlay(t){return t.split('').map((c,i)=>i%2==0?c.toUpperCase():c.toLowerCase()).join('');}
+function toBubble(t){return mapText(t,bubble);}
+function toSquare(t){return mapText(t,square);}
+function toDouble(t){return t.split('').map(c=>c+'̶').join('');}
+function toBoldSerif(t){return '𝐁𝐨𝐥𝐝: '+t;}
+function toItalic(t){return '𝘐𝘵𝘢𝘭𝘪𝘤: '+t;}
+function toMono(t){return '𝙼𝚘𝚗𝚘: '+t;}
+function toArabic(t){return '﷽ '+t+' ﷽';}
+function toVapor(t){return t.split('').map(c=>c.charCodeAt(0)>=33&&c.charCodeAt(0)<=126?String.fromCharCode(c.charCodeAt(0)+65248):c).join(' ');}
+function toCursive(t){return '𝒞𝓊𝓇𝓈𝒾𝓋𝑒: '+t;}
+function toOldEng(t){return '𝕺𝖑𝖉: '+t;}
+function toCircle(t){return 'ⓈⓉⓎⓁⒺ: '+toBubble(t);}
+function toFire(t){return '🔥 '+t.toUpperCase()+' 🔥';}
+function toGame1(t){return '꧁༺ '+t.toUpperCase()+' ༻꧂';}
+function toGame2(t){return '★ '+t+' ★';}
+function toGame3(t){return '『'+t+'』☠️';}
+
+const allStyles=[
+ {id:1,title:'1. TERBALIK',badge:'VIRAL',fn:toUps,cat:'all'},
+ {id:2,title:'2. KECIL HALUS',badge:'SMALL CAPS',fn:toSmall,cat:'all'},
+ {id:3,title:'3. RETAK GLITCH',badge:'FF HOROR',fn:toZalgo,cat:'all'},
+ {id:4,title:'4. INVISIBLE',badge:'PRANK',fn:toInv,cat:'all'},
+ {id:5,title:'5. BIRU KLIK WA',badge:'AUTO CHAT',fn:(t)=>'@+62 '+t+' (biru di WA)',cat:'all'},
+ {id:6,title:'6. SCORPION SULTAN',badge:'KHAS KING',fn:toScorpion,cat:'game'},
+ {id:7,title:'7. COMBO 3IN1',badge:'TEBAL MIRING CORET',fn:toCombo,cat:'all'},
+ {id:8,title:'8. ALAY GACOR',badge:'ALAY',fn:toAlay,cat:'all'},
+ {id:9,title:'9. BUBBLE',badge:'CIRCLE',fn:toBubble,cat:'all'},
+ {id:10,title:'10. KOTAK',badge:'SQUARE',fn:toSquare,cat:'all'},
+ {id:11,title:'11. CORET 2X',badge:'DOUBLE',fn:toDouble,cat:'all'},
+ {id:12,title:'12. BOLD SERIF',badge:'BOLD',fn:toBoldSerif,cat:'bio'},
+ {id:13,title:'13. ITALIC CANTIK',badge:'MIRING',fn:toItalic,cat:'bio'},
+ {id:14,title:'14. MONOSPACE HACKER',badge:'HACKER',fn:toMono,cat:'all'},
+ {id:15,title:'15. ARABIC GOLD',badge:'ARAB',fn:toArabic,cat:'bio'},
+ {id:16,title:'16. VAPORWAVE',badge:'AESTHETIC',fn:toVapor,cat:'bio'},
+ {id:17,title:'17. CURSIVE LUX',badge:'LUX',fn:toCursive,cat:'bio'},
+ {id:18,title:'18. OLD ENGLISH',badge:'SULTAN',fn:toOldEng,cat:'game'},
+ {id:19,title:'19. CIRCLE TEXT',badge:'CIRCLE',fn:toCircle,cat:'all'},
+ {id:20,title:'20. APIK FIRE',badge:'🔥 VIRAL',fn:toFire,cat:'game'},
+ {id:21,title:'21. GAME PRO 1',badge:'FF/ML',fn:toGame1,cat:'game'},
+ {id:22,title:'22. GAME PRO 2',badge:'FF/ML',fn:toGame2,cat:'game'},
+ {id:23,title:'23. GAME PRO 3',badge:'FF/ML',fn:toGame3,cat:'game'},
+];
+let currentTab='all';
+let favorites=JSON.parse(localStorage.getItem('waFav')||'[]');
+function setTab(tab){
+ currentTab=tab;
+ document.querySelectorAll('.tab').forEach(e=>e.classList.remove('active'));
+ document.getElementById('tab-'+tab).classList.add('active');
+ generateAll();
+}
+function quickText(txt){document.getElementById('mainInput').value=txt;generateAll();}
+function toggleFav(id){
+ let idx=favorites.indexOf(id);
+ if(idx>=0)favorites.splice(idx,1); else favorites.push(id);
+ localStorage.setItem('waFav',JSON.stringify(favorites));
+ generateAll();
+ showToast(idx>=0?'❌ Hapus fav':'⭐ Disimpan fav');
+}
+function generateAll(){
+ const val=document.getElementById('mainInput').value||'Sultan';
+ document.getElementById('charCount').innerText=val.length+' huruf';
+ let filtered=allStyles;
+ if(currentTab=='game') filtered=allStyles.filter(s=>s.cat=='game');
+ else if(currentTab=='bio') filtered=allStyles.filter(s=>s.cat=='bio');
+ else if(currentTab=='fav') filtered=allStyles.filter(s=>favorites.includes(s.id));
+ else if(currentTab=='all') filtered=allStyles.slice(0,20);
+ const container=document.getElementById('cards');
+ container.innerHTML=filtered.map(f=>{
+  let out=f.fn(val);
+  let isFav=favorites.includes(f.id)?'★':'☆';
+  return `<div class="card">
+    <div class="card-head"><h3>${f.title}</h3><div style="display:flex;gap:6px;align-items:center"><span class="badge">${f.badge}</span><span onclick="toggleFav(${f.id})" style="cursor:pointer;color:#ffd700;font-size:16px">${isFav}</span></div></div>
+    <div class="result" id="res-${f.id}">${out}</div>
+    <div class="btns">
+      <button class="btn" onclick="copyText(${f.id})">📋 COPY</button>
+      <button class="btn btn3" onclick="openSticker(${f.id})">🎨 STIKER</button>
+      <button class="btn btn2" onclick="shareWA(${f.id})">WA</button>
+    </div>
+  </div>`;
+ }).join('');
+ if(filtered.length==0) container.innerHTML='<div style="text-align:center;padding:20px;color:#8a7a2e">Belum ada favorit KING, klik ☆ buat simpan</div>';
+}
+function copyText(id){
+ const txt=document.getElementById('res-'+id).innerText;
+ navigator.clipboard.writeText(txt).then(()=>showToast('✅ Disalin KING!'));
+}
+function shareWA(id){
+ const txt=document.getElementById('res-'+id).innerText;
+ window.open('https://wa.me/?text='+encodeURIComponent(txt),'_blank');
+}
+function showToast(msg){
+ const t=document.getElementById('toast');t.innerText=msg;t.classList.add('show');setTimeout(()=>t.classList.remove('show'),2000);
+}
+// STIKER
+function openSticker(id){
+ const txt=document.getElementById('res-'+id).innerText.slice(0,32);
+ document.getElementById('stickerModal').classList.add('show');
+ drawSticker(txt);
+}
+function closeSticker(){document.getElementById('stickerModal').classList.remove('show');}
+function drawSticker(text){
+ const canvas=document.getElementById('stickerCanvas');
+ const ctx=canvas.getContext('2d');
+ ctx.fillStyle='#000000';
+ ctx.fillRect(0,0,512,512);
+ ctx.strokeStyle='#ffd700';
+ ctx.lineWidth=12;
+ ctx.strokeRect(10,10,492,492);
+ const grad=ctx.createRadialGradient(256,256,50,256,256,280);
+ grad.addColorStop(0,'rgba(255,215,0,0.18)');
+ grad.addColorStop(1,'rgba(0,0,0,0)');
+ ctx.fillStyle=grad;
+ ctx.fillRect(0,0,512,512);
+ ctx.fillStyle='#ffd700';
+ ctx.font='bold 28px Poppins';
+ ctx.textAlign='center';
+ ctx.fillText('🦂 SCAN KING',256,120);
+ ctx.fillStyle='#ffffff';
+ ctx.font='bold 42px Poppins';
+ ctx.textAlign='center';
+ const words=text.split(' ');
+ let lines=[]; let cur='';
+ words.forEach(w=>{if((cur+' '+w).length>16){lines.push(cur);cur=w;}else cur=(cur?cur+' ':'')+w;});
+ lines.push(cur);
+ let y=220;
+ lines.slice(0,4).forEach(line=>{
+   ctx.strokeStyle='#ffd700';
+   ctx.lineWidth=6;
+   ctx.strokeText(line,256,y);
+   ctx.fillStyle='#ffffff';
+   ctx.fillText(line,256,y);
+   y+=56;
+ });
+ ctx.fillStyle='#8a7a2e';
+ ctx.font='12px Poppins';
+ ctx.fillText('V4 ULTRA • 20 GAYA',256,480);
+}
+function downloadSticker(){
+ const canvas=document.getElementById('stickerCanvas');
+ const link=document.createElement('a');
+ link.download='stiker-'+Date.now()+'.png';
+ link.href=canvas.toDataURL('image/png');
+ link.click();
+ showToast('⬇️ PNG siap jadi stiker!');
+}
+let deferredPrompt;
+window.addEventListener('beforeinstallprompt',e=>{e.preventDefault();deferredPrompt=e;document.getElementById('installBtn').style.display='block';});
+function installPWA(){
+ if(deferredPrompt){deferredPrompt.prompt();deferredPrompt.userChoice.then(c=>{if(c.outcome==='accepted')showToast('📲 APK Terinstall!');deferredPrompt=null;document.getElementById('installBtn').style.display='none';});}
+ else{showToast('Titik 3 > Tambah ke layar utama');}
+}
+if('serviceWorker' in navigator){navigator.serviceWorker.register('sw.js').catch(()=>{});}
+generateAll();
+</script>
+
+<!-- === BANNER BAWAH NON-ADULT SCORPION SCAN AMAN === -->
+<div id="ad-banner-bottom" style="position:fixed;bottom:0;left:0;right:0;z-index:99999;background:#111;padding:8px 10px;text-align:center;border-top:2px solid #00ff88;">
+
+  <div style="font-size:9px;color:#888;margin-bottom:4px;">IKLAN • SCORPION SCAN SUPPORT</div>
+
+  <!-- TEMPAT IKLAN MONETAG / BAUVAL (kalau mau pakai) -->
+  <div id="bauval-slot">
+    <script data-cfasync="false" src="https://bauval.org/14/1c35c6a9..."></script>
+  </div>
+
+  <!-- PROMO LU SENDIRI, PISAH -->
+  <a href="https://aistudio.google.com/apps/6a7ae264-ded6-4c04-b..." style="text-decoration:none;display:block;margin-top:6px;">
+    <div style="background:linear-gradient(90deg,#FFD700,#FFA500);color:#000;font-weight:bold;padding:6px;border-radius:6px;font-size:13px;">
+      🔥 KHODAM LAUNCHER FOREX 🔥
+    </div>
+  </a>
+
+  <button onclick="document.getElementById('ad-banner-bottom').style.display='none'" style="position:absolute;top:2px;right:6px;background:#333;color:#fff;border:none;border-radius:50%;width:22px;height:22px;cursor:pointer;">X</button>
+</div>
+
+</body>
+  </html>
