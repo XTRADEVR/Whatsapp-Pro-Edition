@@ -1,17 +1,20 @@
 {
-  "name": "V4 ULTRA 20 GAYA + STIKER WA - SCAN KING",
+  "name": "WA SULTAN SCORPION",
   "short_name": "WA SULTAN",
-  "description": "20 gaya tulisan WA viral + stiker WA gold black sultan edition",
-  "start_url": "./index.html",
+  "start_url": "./",
   "display": "standalone",
   "background_color": "#000000",
-  "theme_color": "#ffd700",
-  "orientation": "portrait",
+  "theme_color": "#000000",
   "icons": [
     {
-      "src": "./icon.png-512.jpg",
+      "src": "./icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "./icon-512.png",
       "sizes": "512x512",
-      "type": "image/jpeg",
+      "type": "image/png",
       "purpose": "any maskable"
     }
   ]
