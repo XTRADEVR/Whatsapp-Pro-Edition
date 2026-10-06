@@ -1,18 +1,20 @@
 {
-  "name": "WA SULTAN SCORPION",
+  "name": "WA SULTAN SCORPION - 20 Gaya Tulisan WA",
   "short_name": "WA SULTAN",
-  "start_url": "./",
+  "description": "20 gaya tulisan WA viral + stiker WA gold black sultan edition V4 ULTRA - 99% orang belum tau",
+  "start_url": "/Whatsapp-Pro-Edition/",
+  "scope": "/Whatsapp-Pro-Edition/",
   "display": "standalone",
   "background_color": "#000000",
-  "theme_color": "#000000",
+  "theme_color": "#FFD700",
   "icons": [
     {
-      "src": "./icon-192.png",
+      "src": "icon-192.png",
       "sizes": "192x192",
       "type": "image/png"
     },
     {
-      "src": "./icon-512.png",
+      "src": "icon-512.png",
       "sizes": "512x512",
       "type": "image/png",
       "purpose": "any maskable"
