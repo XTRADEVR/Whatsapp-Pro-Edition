@@ -1,0 +1,18 @@
+{
+  "name": "V4 ULTRA 20 GAYA + STIKER WA - SCAN KING",
+  "short_name": "WA SULTAN",
+  "description": "20 gaya tulisan WA viral + stiker WA gold black sultan edition",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#000000",
+  "theme_color": "#ffd700",
+  "orientation": "portrait",
+  "icons": [
+    {
+      "src": "./icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}
